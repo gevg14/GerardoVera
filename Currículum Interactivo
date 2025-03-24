@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Currículum</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="https://ih1.redbubble.net/image.2069979061.5076/st,small,507x507-pad,600x600,f8f8f8.jpg" alt="Foto de perfil Gerardo Vera">
+        <h1>Gerardo Enrique Vera Gonzalez</h1>
+        <h2>Desarrollador Web</h2>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#datos">Datos Personales</a></li>
+            <li><a href="#experiencia">Experiencia</a></li>
+            <li><a href="#educacion">Educación</a></li>
+            <li><a href="#habilidades">Habilidades</a></li>
+            <li><a href="#proyectos">Portafolio</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <section id="datos">
+        <h2>Datos Personales</h2>
+        <p>Email: <span>gerardoveragonzalez57@gmail.com</span></p>
+        <p>Teléfono: <span>+56 9 5036 6363</span></p>
+        <p>Perfil profesional: <a href="https://github.com/gevg14">github</a></p>
+    </section>
+
+    <section id="experiencia">
+        <h2>Experiencia Laboral</h2>
+        <article>
+            <h3>Consultorio Carmela Carvajal</h3>
+            <p>Cargo: Administrativo Sapu</p>
+        </article>
+    </section>
+
+    <section id="educacion">
+        <h2>Educación y Certificaciones</h2>
+        <table border="1">
+            <tr>
+                <th>Institución</th>
+                <th>Título</th>
+                <th>Año</th>
+            </tr>
+            <tr>
+                <td>Liceo de hombres Manuel Montt</td>
+                <td>4to medio humanista</td>
+                <td>2023</td>
+
+            </tr>
+        </table>
+    </section>
+
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML</li>
+            <li>SQL developer</li>
+            <li>Python</li>
+        </ul>
+    </section>
+
+    <section id="nuevo-elemento">
+        <h2>Elemento HTML Nuevo</h2>
+        <details>
+            <summary>Ver más información</summary>
+            <p>Este es un contenido colapsable utilizando <code>&lt;details&gt;</code> y <code>&lt;summary&gt;</code>.</p>
+        </details>
+    </section>
+
+    <footer>
+        <p>© 2024 Gerardo Vera Gonzalez.</p>
+    </footer>
+</body>
+</html>
